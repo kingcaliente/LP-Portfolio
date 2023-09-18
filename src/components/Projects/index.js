@@ -39,7 +39,7 @@ const Projects = () => {
     ];
   
     return (
-      <div className="text-zone">
+      <div>
         {projects.map((project, index) => (
           <div key={index}>
             <h2>{project.title}</h2>

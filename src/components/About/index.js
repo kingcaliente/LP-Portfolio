@@ -7,29 +7,13 @@ const About = () => {
                 <h1>
                     About Me
                 </h1>
-                <p>Roads go ever ever on,
-                    Over rock and under tree,
-                    By caves where never sun has shone,
-                    By streams that never find the sea;
-                    Over snow by winter sown,
-                    And through the merry flowers of June,
-                    Over grass and over stone,
-                    And under mountains in the moon.</p>
-                <p>Roads go ever ever on,
-                    Under cloud and under star.
-                    Yet feet that wandering have gone
-                    Turn at last to home afar.
-                    Eyes that fire and sword have seen,
-                    And horror in the halls of stone
-                    Look at last on meadows green,
-                    And trees and hills they long have known.</p>
-                <p>The Road goes ever on and on
-                    Down from the door where it began.
-                    Now far ahead the Road has gone,
-                    And I must follow, if I can,
-                    Pursuing it with eager feet,
-                    Until it joins some larger way,
-                    Where many paths and errands meet.</p>
+                <p>Hello! I'm Luis Pardo, your friendly neighborhood web developer. My journey in the tech world began with a simple curiosity about how things work, and it has since evolved into a relentless pursuit of knowledge and innovation..</p>
+                <p>I believe that technology has the power to transform lives, break down barriers, and bring positive change to society. It's not just about coding; it's about creating solutions that make a difference. I thrive on the challenges that the ever-evolving tech landscape presents and am constantly excited to explore new technologies and concepts.</p>
+                <p> Beyond the lines of code, I'm endlessly curious about the world and the people who inhabit it. Traveling, reading, and meeting people from diverse backgrounds fuel my curiosity. I believe that understanding different perspectives and cultures enriches our work as technologists and makes us more empathetic problem solvers.
+
+                As a web developer, I'm excited to collaborate, learn, and create. My goal is not only to build functional and aesthetically pleasing websites and applications but also to contribute to a more inclusive and interconnected digital landscape. Let's embark on this journey together and make technology a force for good.
+
+                Thank you for stopping by my portfolio! If you'd like to connect or have a project in mind, feel free to reach out</p>
             </div>
         </div>
     )
