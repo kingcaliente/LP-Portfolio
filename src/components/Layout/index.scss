@@ -47,6 +47,18 @@
       width: 35%;
       vertical-align: middle;
       display: table-cell;
+      max-height: 90%; 
+    }
+  }
+  .about-page {
+    .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 35%;
+      vertical-align: middle;
+      display: table-cell;
       max-height: 90%;
 
       h1 {

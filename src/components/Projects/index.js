@@ -1,45 +1,50 @@
+import './index.scss'
+
+
 const Projects = () => {
-    const projects = [
-      {
-        title: "Project 1",
-        image: "path/to/image1",
-        deployedLink: "https://project1.com",
-        githubLink: "https://github.com/user/project1"
-      },
-      {
-        title: "Project 2",
-        image: "path/to/image2",
-        deployedLink: "https://project2.com",
-        githubLink: ""
-      },
-      {
-        title: "Project 3",
-        image: "path/to/image3",
-        deployedLink: "https://project3.com",
-        githubLink: ""
-      },
-      {
-        title: "Project 4",
-        image: "path/to/image4",
-        deployedLink: "https://project4.com",
-        githubLink: ""
-      },
-      {
-        title: "Project 5",
-        image: "path/to/image5",
-        deployedLink: "https://project5.com",
-        githubLink: ""
-      },
-      {
-        title: "Project 6",
-        image: "path/to/image6",
-        deployedLink: "https://project6.com",
-        githubLink: ""  
-      }
-    ];
-  
-    return (
-      <div>
+  const projects = [
+    {
+      title: "Tech Blog",
+      image:"../../assets/images/github2.png",
+      deployedLink: "https://project1.com",
+      githubLink: "https://github.com/kingcaliente/Tech-Blog"
+    },
+    {
+      title: "Quiz App",
+      image: "path/to/image2",
+      deployedLink: "https://kingcaliente.github.io/quiz-game/",
+      githubLink: "https://github.com/kingcaliente/quiz-game"
+    },
+    {
+      title: "Text Editor",
+      image: "path/to/image3",
+      deployedLink: "https://github.com/kingcaliente/mod19",
+      githubLink: "https://github.com/kingcaliente/mod19"
+    },
+    {
+      title: "Stream App",
+      image: "path/to/image4",
+      deployedLink: "https://project4.com",
+      githubLink: ""
+    },
+    {
+      title: "Read Me Generator",
+      image: "path/to/image5",
+      deployedLink: "https://github.com/kingcaliente/README-generator",
+      githubLink: "https://github.com/kingcaliente/README-generator"
+    },
+    {
+      title: "Weather Dashboard",
+      image: "path/to/image6",
+      deployedLink: "https://github.com/kingcaliente/weather-dashboard",
+      githubLink: "https://github.com/kingcaliente/weather-dashboard"
+    }
+  ];
+
+  return (
+    <div className="container about-page">
+      <div className="text-zone">
+        <h1>Portfolio Of Work</h1>
         {projects.map((project, index) => (
           <div key={index}>
             <h2>{project.title}</h2>
@@ -49,7 +54,10 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    );
-  };
+    </div>
+  );
+}
 
-  export default Projects;
+
+
+      export default Projects;
