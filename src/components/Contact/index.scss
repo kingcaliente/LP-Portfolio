@@ -1,0 +1,30 @@
+.app {
+        display: flex;
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+      }
+
+      img {
+        display: block;
+        margin: 8px auto;
+        background-color: transparent;
+        opacity: 1; 
+
+        
+  
+        &.sub-logo {
+          width: 50px;
+        }
+
+        .image-container {
+          background-color: transparent;
+          opacity: 1; 
+      }
+
+    }
+  
+  
