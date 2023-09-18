@@ -1,15 +1,54 @@
 img {
-    width: 30%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.5rem;
+  transition: var(--transition);
+  display: block;
+  position: relative;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 40px; 
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
     border-radius: 0.5rem;
     transition: var(--transition);
-    display: block;
-    position: relative;
-    opacity: 0.8;
+    background-color: var(--clr-white);
+    box-shadow: var(--dark-shadow);
+
     &:hover {
-      opacity: 1;
-      cursor: pointer;
+      box-shadow: var(--light-shadow);
     }
+
+    h4 {
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      margin-top: auto;
+      color: white;
+      font-size: 1.5rem;
+      font: Coolvetica;
+    }
+  }
 }
