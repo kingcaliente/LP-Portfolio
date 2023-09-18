@@ -5,37 +5,37 @@ const Projects = () => {
   const projects = [
     {
       title: "Tech Blog",
-      image:"../../assets/images/github2.png",
+      image: "github3.png",
       deployedLink: "https://project1.com",
       githubLink: "https://github.com/kingcaliente/Tech-Blog"
     },
     {
       title: "Quiz App",
-      image: "path/to/image2",
+      image: "github3.png",
       deployedLink: "https://kingcaliente.github.io/quiz-game/",
       githubLink: "https://github.com/kingcaliente/quiz-game"
     },
     {
       title: "Text Editor",
-      image: "path/to/image3",
+      image: "github3.png",
       deployedLink: "https://github.com/kingcaliente/mod19",
       githubLink: "https://github.com/kingcaliente/mod19"
     },
     {
       title: "Stream App",
-      image: "path/to/image4",
+      image: "github3.png",
       deployedLink: "https://project4.com",
       githubLink: ""
     },
     {
       title: "Read Me Generator",
-      image: "path/to/image5",
+      image: "github3.png",
       deployedLink: "https://github.com/kingcaliente/README-generator",
       githubLink: "https://github.com/kingcaliente/README-generator"
     },
     {
       title: "Weather Dashboard",
-      image: "path/to/image6",
+      image: "github3.png",
       deployedLink: "https://github.com/kingcaliente/weather-dashboard",
       githubLink: "https://github.com/kingcaliente/weather-dashboard"
     }
