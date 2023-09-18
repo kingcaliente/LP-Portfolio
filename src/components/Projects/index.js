@@ -6,11 +6,40 @@ const Projects = () => {
         deployedLink: "https://project1.com",
         githubLink: "https://github.com/user/project1"
       },
-      // Add other projects similarly
+      {
+        title: "Project 2",
+        image: "path/to/image2",
+        deployedLink: "https://project2.com",
+        githubLink: ""
+      },
+      {
+        title: "Project 3",
+        image: "path/to/image3",
+        deployedLink: "https://project3.com",
+        githubLink: ""
+      },
+      {
+        title: "Project 4",
+        image: "path/to/image4",
+        deployedLink: "https://project4.com",
+        githubLink: ""
+      },
+      {
+        title: "Project 5",
+        image: "path/to/image5",
+        deployedLink: "https://project5.com",
+        githubLink: ""
+      },
+      {
+        title: "Project 6",
+        image: "path/to/image6",
+        deployedLink: "https://project6.com",
+        githubLink: ""  
+      }
     ];
   
     return (
-      <div>
+      <div className="text-zone">
         {projects.map((project, index) => (
           <div key={index}>
             <h2>{project.title}</h2>
