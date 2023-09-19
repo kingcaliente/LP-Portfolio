@@ -7,6 +7,7 @@ const Resume = () => {
         <div className='text-zone'>
       <h1>Resume</h1>
       <p>Please click the following link to download the latest version of my Resume.</p>
+      <p> Download Link Coming Soon</p>
     </div>
     </div>
   );

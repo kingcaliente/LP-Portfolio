@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "Tech Blog",
       image: "code.png",
-      deployedLink: "https://project1.com",
+      deployedLink: "https://github.com/kingcaliente/Tech-Blog",
       githubLink: "https://github.com/kingcaliente/Tech-Blog"
     },
     {
@@ -24,8 +24,8 @@ const Projects = () => {
     {
       title: "Streaming Availability App",
       image: "backend.png",
-      deployedLink: "https://project4.com",
-      githubLink: ""
+      deployedLink: "https://dolly-bleeter-6a4dd49c0ee0.herokuapp.com/",
+      githubLink: "https://github.com/Tmollerhoj/Dolly"
     },
     {
       title: "Read Me Generator",
