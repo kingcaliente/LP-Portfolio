@@ -4,10 +4,10 @@ import './index.scss'
 const Projects = () => {
   const projects = [
     {
-      title: "Tech Blog",
+      title: "Trivia App",
       image: "code.png",
-      deployedLink: "https://github.com/kingcaliente/Tech-Blog",
-      githubLink: "https://github.com/kingcaliente/Tech-Blog"
+      deployedLink: "https://triva-app-b99ca674f9c4.herokuapp.com/",
+      githubLink: "https://github.com/KMitch137/triva_app"
     },
     {
       title: "Quiz App",
